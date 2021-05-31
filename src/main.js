@@ -2,7 +2,11 @@ import Vue from 'vue';
 import Buefy from 'buefy';
 import 'buefy/dist/buefy.css';
 
-// import firebase from './firebase';
+// eslint-disable-next-line no-unused-vars
+import firebase from './firebase';
+// eslint-disable-next-line no-unused-vars
+import auth from './auth';
+
 import App from './App.vue';
 import router from './router';
 import store from './store';
